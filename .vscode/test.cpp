@@ -3,13 +3,13 @@ using namespace std;
 
 int cal(int stTime,int endTime,int moneyI){
     int moneyO;
-    int times = stTime - endTime;
+    int times = endTime-stTime ;
     if(times <= 3){
         moneyO = times * moneyI;
     }else{
         moneyO = 3 * moneyI;
         int rmtimes = times-3;
-        moneyO += rmtimes * moneyI;
+        moneyO += rmtimes * 0.8 * moneyI;
     }
     return moneyO;
 }
