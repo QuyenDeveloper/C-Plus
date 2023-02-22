@@ -12,19 +12,22 @@ int main(int argc, char**){
     {  
         cin >> arr[i];  
     }  
+
     ptr = &arr[0];  
     cout <<" Entered elements of the array are: \n" <<endl;  
     for (i = 0; i < num; i++)  
     {  
-        cout << "\t" << *ptr;  
-        ptr++;  
+        cout << "\t" << *ptr;
+        ptr++;
     }  
+    
     ptr--;
     for ( i = 0; i < num; i++)  
     {  
         arr2[i] = *ptr;  
         ptr--;  
     }  
+
     ptr = &arr2[0];  
     for ( i = 0; i < num; i++)  
     {  
