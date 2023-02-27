@@ -1,0 +1,7 @@
+---Bệnh nhân nội trú!---
+Số ngày nằm viện: 10
+Chi phí nằm viện/ngày: 200
+Số tiền thuốc: 10
+Số tiền dịch vụ khám bệnh: 100
+-----------------------------
+ Tổng chi phí phải trả: 2110
